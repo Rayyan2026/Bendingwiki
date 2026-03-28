@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bending Compendium</title>
+    <meta
+      name="description"
+      content="A polished community wiki for Bending, with element guides, move breakdowns, setup help, and advanced topics."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">BC</div>
+          <div>
+            <p class="eyebrow">Community Wiki</p>
+            <h1>Bending Compendium</h1>
+          </div>
+        </div>
+        <nav id="sidebar-nav" class="sidebar-nav" aria-label="Wiki sections"></nav>
+      </aside>
+
+      <main class="main-content">
+        <header class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Avatar-Inspired Minecraft Guide</p>
+            <h2>Every element, move, sequence, and essential system in one cleaner wiki.</h2>
+            <p class="hero-text">
+              Browse by element, learn exact move inputs, compare sequences, and jump into commands,
+              presets, permissions, platforms, and developer topics without digging through raw wiki pages.
+            </p>
+          </div>
+
+          <div class="hero-panel">
+            <div class="hero-stats">
+              <div><strong>4</strong><span>Core elements</span></div>
+              <div><strong>60+</strong><span>Abilities</span></div>
+              <div><strong>1</strong><span>Fast reference</span></div>
+            </div>
+
+            <label class="search-field">
+              <span>Search moves and topics</span>
+              <input id="search-input" type="search" placeholder="Try FireBlast, presets, permissions..." />
+            </label>
+          </div>
+        </header>
+
+        <section id="content" class="content"></section>
+      </main>
+    </div>
+
+    <script src="./wiki-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
